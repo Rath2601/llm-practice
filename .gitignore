@@ -1,0 +1,76 @@
+# =========================
+# Build output
+# =========================
+/target/
+/build/
+out/
+
+# =========================
+# IDEs
+# =========================
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Spring Boot
+# =========================
+spring.log
+hs_err_pid*
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+application.yaml
+application-local.yml
+application-local.properties
+application-dev.yml
+application-dev.properties
+
+# =========================
+# Maven
+# =========================
+.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# =========================
+# Test reports
+# =========================
+/surefire-reports/
+/failsafe-reports/
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
+*.swp
